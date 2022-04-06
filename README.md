@@ -1,4 +1,4 @@
-# bentley-ottmann-intersections
+# self-intersects
 
 **NOTE** For a faster and smaller module I recommend checking out [sweepline-intersections](https://github.com/rowanwins/sweepline-intersections)
 
@@ -6,14 +6,14 @@ A small module using the Bentley-Ottmann algorithm to detection self-intersectio
 
 ## Install
 ````
-npm install bentley-ottmann-intersections
+npm install self-intersects
 ````
 
 ## Documentation
 Valid inputs: Geojson `Polygon`, `MultiPolygon`
 
 ````js
-    const findIntersections = require('bentley-ottmann-intersections')
+    const findIntersections = require('self-intersects')
 
     const box = {type: 'Polygon', coordinates: [[[0, 0], [1, 0], [1, 1], [0, 1], [0, 0]]]}
     findIntersections(box)
@@ -49,7 +49,7 @@ Tested against
 
 
 ## Further Reading
-- [Original paper](https://github.com/rowanwins/bentley-ottmann-intersections/blob/master/1979-Bentley.pdf)
+- [Original paper](https://github.com/homfen/self-intersects/blob/master/1979-Bentley.pdf)
 - [Geom algorithms website](http://geomalgorithms.com/a09-_intersect-3.html#Bentley-Ottmann-Algorithm)
 - [Lecture notes by M Smid from Carleton University](https://people.scs.carleton.ca/~michiel/lecturenotes/ALGGEOM/bentley-ottmann.pdf)
 

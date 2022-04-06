@@ -1,6 +1,6 @@
 {
   "name": "self-intersects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A module to check if a polygon self-intersects using the bentley-ottmann algorithm",
   "main": "dist/bentleyOttmannIntersections.js",
   "module": "src/main.js",
