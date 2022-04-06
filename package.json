@@ -1,6 +1,6 @@
 {
   "name": "self-intersects",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A module to check if a polygon self-intersects using the bentley-ottmann algorithm",
   "main": "dist/bentleyOttmannIntersections.js",
   "module": "src/main.js",
@@ -23,6 +23,10 @@
     "require": [
       "esm"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:homfen/bentley-ottmann-intersections.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
